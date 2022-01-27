@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "Dog Ears",
+  "version": "0.1",
+  "description": "Extension that lets you make a list of websites to be visited later. ",
+  "background": {
+    "scripts": ["./background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["jquery-3.6.0.slim.js", "./foreground.js"]
+    }
+  ],
+
+  "options_page": "./options.html",
+
+  "browser_action": {
+    "default_icon": "./icon.png",
+    "default_popup": "./popup.html"
+  },
+
+  "permissions": [
+    "tabs",
+    "<all_urls>",
+    "storage"
+]
+}

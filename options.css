@@ -1,0 +1,95 @@
+body {
+    font-family: 'Arial';
+    background-color: #faf0dd;
+  }
+
+  .mainTitle {
+    padding-left: 10%;
+    font-size: 2.3vmax;
+    line-height: 3.3vmax;
+  }
+
+  .footer {
+    text-align: center;
+    font-size: 1.4vmax;
+  }
+
+  .mainbuttons {
+    float: right;
+    font-size: 1.4vmax;
+    text-align: center;
+    padding: 4px;
+    margin-right: 10%;
+    border: solid 1px black;
+  }
+
+  left {
+    text-align: center;
+    width: 80%;
+  }
+
+  right {
+    width: auto;
+  }
+
+  .mainTable {
+      width: 90%;
+      padding-left: 7.5%;
+      font-size: 1.3vmax;
+      table-layout: fixed;
+  }
+
+  .titleHolder {
+      font-family: 'Times New Roman', Times, serif;
+      max-width: 45%;
+  }
+
+  .urlHolder {
+      font-family: Arial, Helvetica, sans-serif;
+      max-width: 45%;
+  }
+
+  .removeButtonHolder {
+      opacity: 0;
+  }
+
+
+  tr:hover .removeButtonHolder {
+      opacity: 1;
+      text-align: left;
+  }
+
+  tr {
+      height: 10px;
+  }
+
+  tr:hover {
+    color: #AE4CCF;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:active {
+    color: #AE4CCF;
+  }
+  
+  .markedAsRead {
+      text-decoration: line-through;
+  }
+
+  .mainBody {
+      border-top: #000000;
+      border-bottom: #000000;
+  }
+
+  hr {
+    color: #000000;
+  }
+
+  .remove_link {
+    position: inherit;
+  }
